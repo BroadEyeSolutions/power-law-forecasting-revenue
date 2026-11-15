@@ -1,0 +1,1118 @@
+{
+ "workbook": "Forecasting-Revenue_Workbook.xlsx",
+ "tables": [
+  {
+   "grid": "1-1-straight-line_step-1__t1",
+   "sheet": "1.1 Straight Line",
+   "first_row": 7,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "PY (last year)",
+    "IY (this year)",
+    "January as a share of IY",
+    "NY (next year)"
+   ],
+   "pct": [
+    "January as a share of IY"
+   ],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-1-straight-line_step-2__t1",
+   "sheet": "1.1 Straight Line",
+   "first_row": 39,
+   "col": 2,
+   "ncols": 2,
+   "labels": [
+    "Net new revenue",
+    "Revenue per new account",
+    "New accounts"
+   ],
+   "pct": [],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-1-straight-line_step-3__t1",
+   "sheet": "1.1 Straight Line",
+   "first_row": 50,
+   "col": 2,
+   "ncols": 5,
+   "labels": [
+    "New accounts",
+    "CVR (leads to accounts)",
+    "Leads (accounts \u00f7 CVR)",
+    "Cost per lead",
+    "Budget (leads \u00d7 cost per lead)",
+    "Cost per new account (budget \u00f7 accounts)"
+   ],
+   "pct": [
+    "CVR (leads to accounts)"
+   ],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-1-straight-line_step-4__v1c1",
+   "sheet": "1.1 Straight Line",
+   "first_row": 67,
+   "col": 2,
+   "ncols": 12,
+   "labels": [
+    "Revenue",
+    "New accounts",
+    "Spend",
+    "Cost per new account"
+   ],
+   "pct": [],
+   "kind": "chart",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-1-straight-line_step-4__v2c1",
+   "sheet": "1.1 Straight Line",
+   "first_row": 73,
+   "col": 2,
+   "ncols": 12,
+   "labels": [
+    "Revenue",
+    "New accounts",
+    "Spend",
+    "Cost per new account"
+   ],
+   "pct": [],
+   "kind": "chart",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-1-straight-line_step-4__v3c1",
+   "sheet": "1.1 Straight Line",
+   "first_row": 79,
+   "col": 2,
+   "ncols": 12,
+   "labels": [
+    "Revenue",
+    "New accounts",
+    "Spend",
+    "Cost per new account"
+   ],
+   "pct": [],
+   "kind": "chart",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-1-straight-line_step-4__v4c1",
+   "sheet": "1.1 Straight Line",
+   "first_row": 85,
+   "col": 2,
+   "ncols": 12,
+   "labels": [
+    "Revenue",
+    "New accounts",
+    "Spend",
+    "Cost per new account"
+   ],
+   "pct": [],
+   "kind": "chart",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-1-straight-line_step-4__v5c1",
+   "sheet": "1.1 Straight Line",
+   "first_row": 91,
+   "col": 2,
+   "ncols": 12,
+   "labels": [
+    "Revenue",
+    "New accounts",
+    "Spend",
+    "Cost per new account"
+   ],
+   "pct": [],
+   "kind": "chart",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-1-straight-line_step-4__v6c1",
+   "sheet": "1.1 Straight Line",
+   "first_row": 97,
+   "col": 2,
+   "ncols": 12,
+   "labels": [
+    "Revenue",
+    "New accounts",
+    "Spend",
+    "Cost per new account"
+   ],
+   "pct": [],
+   "kind": "chart",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-1-straight-line_step-4__v7c1",
+   "sheet": "1.1 Straight Line",
+   "first_row": 103,
+   "col": 2,
+   "ncols": 12,
+   "labels": [
+    "Revenue",
+    "New accounts",
+    "Spend",
+    "Cost per new account"
+   ],
+   "pct": [],
+   "kind": "chart",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-1-straight-line_step-4__v8c1",
+   "sheet": "1.1 Straight Line",
+   "first_row": 109,
+   "col": 2,
+   "ncols": 12,
+   "labels": [
+    "Revenue",
+    "New accounts",
+    "Spend",
+    "Cost per new account"
+   ],
+   "pct": [],
+   "kind": "chart",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-1-straight-line_reforecast__v1c1",
+   "sheet": "1.1 Straight Line",
+   "first_row": 132,
+   "col": 2,
+   "ncols": 12,
+   "labels": [
+    "Revenue",
+    "New accounts",
+    "Spend",
+    "Cost per new account"
+   ],
+   "pct": [],
+   "kind": "chart",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-1-straight-line_reforecast__v2c1",
+   "sheet": "1.1 Straight Line",
+   "first_row": 143,
+   "col": 2,
+   "ncols": 12,
+   "labels": [
+    "Revenue",
+    "New accounts",
+    "Spend",
+    "Cost per new account"
+   ],
+   "pct": [],
+   "kind": "chart",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-1-straight-line_reforecast__v3c1",
+   "sheet": "1.1 Straight Line",
+   "first_row": 154,
+   "col": 2,
+   "ncols": 12,
+   "labels": [
+    "Revenue",
+    "New accounts",
+    "Spend",
+    "Cost per new account"
+   ],
+   "pct": [],
+   "kind": "chart",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-1-straight-line_reforecast__v4c1",
+   "sheet": "1.1 Straight Line",
+   "first_row": 165,
+   "col": 2,
+   "ncols": 12,
+   "labels": [
+    "Revenue",
+    "New accounts",
+    "Spend",
+    "Cost per new account"
+   ],
+   "pct": [],
+   "kind": "chart",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-2-seasonal_step-1__t1",
+   "sheet": "1.2 Seasonal",
+   "first_row": 7,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "Last year (PY)",
+    "This year (IY)",
+    "Share of the year",
+    "Plan, same shares",
+    "Share of the year",
+    "Plan, spread evenly",
+    "Share of the year"
+   ],
+   "pct": [
+    "Share of the year"
+   ],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-2-seasonal_step-2__t1",
+   "sheet": "1.2 Seasonal",
+   "first_row": 19,
+   "col": 2,
+   "ncols": 12,
+   "labels": [
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026",
+    "Average",
+    "High to low, points"
+   ],
+   "pct": [
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026",
+    "Average"
+   ],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-2-seasonal_step-2__t2",
+   "sheet": "1.2 Seasonal",
+   "first_row": 31,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "Net new revenue"
+   ],
+   "pct": [],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-2-seasonal_next-year__v1c1",
+   "sheet": "1.2 Seasonal",
+   "first_row": 37,
+   "col": 2,
+   "ncols": 12,
+   "labels": [
+    "Revenue",
+    "New accounts",
+    "Spend",
+    "Cost per new account"
+   ],
+   "pct": [],
+   "kind": "chart",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-2-seasonal_reforecast__v1c1",
+   "sheet": "1.2 Seasonal",
+   "first_row": 52,
+   "col": 2,
+   "ncols": 12,
+   "labels": [
+    "Revenue",
+    "New accounts",
+    "Spend",
+    "Cost per new account"
+   ],
+   "pct": [],
+   "kind": "chart",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-2-seasonal_reforecast__v2c1",
+   "sheet": "1.2 Seasonal",
+   "first_row": 63,
+   "col": 2,
+   "ncols": 12,
+   "labels": [
+    "Revenue",
+    "New accounts",
+    "Spend",
+    "Cost per new account"
+   ],
+   "pct": [],
+   "kind": "chart",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-2-seasonal_reforecast__v3c1",
+   "sheet": "1.2 Seasonal",
+   "first_row": 74,
+   "col": 2,
+   "ncols": 12,
+   "labels": [
+    "Revenue",
+    "New accounts",
+    "Spend",
+    "Cost per new account"
+   ],
+   "pct": [],
+   "kind": "chart",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-2-seasonal_reforecast__v4c1",
+   "sheet": "1.2 Seasonal",
+   "first_row": 85,
+   "col": 2,
+   "ncols": 12,
+   "labels": [
+    "Revenue",
+    "New accounts",
+    "Spend",
+    "Cost per new account"
+   ],
+   "pct": [],
+   "kind": "chart",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-3-cohort_step-1-py__t1",
+   "sheet": "1.3 Cohort",
+   "first_row": 8,
+   "col": 2,
+   "ncols": 14,
+   "labels": [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+    "Billed in the month"
+   ],
+   "pct": [],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-3-cohort_step-1-iy__t1",
+   "sheet": "1.3 Cohort",
+   "first_row": 25,
+   "col": 2,
+   "ncols": 14,
+   "labels": [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+    "Billed in the month"
+   ],
+   "pct": [],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-3-cohort_step-2__t1",
+   "sheet": "1.3 Cohort",
+   "first_row": 146,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "PY January accounts",
+    "PY June accounts",
+    "The curve"
+   ],
+   "pct": [],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-3-cohort_step-3__t1",
+   "sheet": "1.3 Cohort",
+   "first_row": 153,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "Time-of-year factor",
+    "Against an average month"
+   ],
+   "pct": [
+    "Against an average month"
+   ],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-3-cohort_step-4__t1",
+   "sheet": "1.3 Cohort",
+   "first_row": 160,
+   "col": 2,
+   "ncols": 14,
+   "labels": [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+    "Cohort build",
+    "Straight Line, this year\u2019s shares"
+   ],
+   "pct": [],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-3-cohort_next-year__v1c1",
+   "sheet": "1.3 Cohort",
+   "first_row": 179,
+   "col": 2,
+   "ncols": 12,
+   "labels": [
+    "Revenue",
+    "New accounts",
+    "Spend",
+    "Cost per new account"
+   ],
+   "pct": [],
+   "kind": "chart",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-5-three-ways__t1",
+   "sheet": "1.5 Three ways",
+   "first_row": 7,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "Straight Line",
+    "Seasonal",
+    "Cohort"
+   ],
+   "pct": [],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-5-three-ways_this-year-at-each-close__t1",
+   "sheet": "1.5 Three ways",
+   "first_row": 15,
+   "col": 2,
+   "ncols": 4,
+   "labels": [
+    "Straight Line",
+    "Seasonal"
+   ],
+   "pct": [],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-6-aside_plans-by-month__t1",
+   "sheet": "1.6 Aside",
+   "first_row": 7,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "Investment",
+    "Cost per lead",
+    "Leads",
+    "CVR",
+    "New accounts",
+    "Net new revenue",
+    "Share of the year"
+   ],
+   "pct": [
+    "CVR",
+    "Share of the year"
+   ],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-6-aside_plans-by-month__t2",
+   "sheet": "1.6 Aside",
+   "first_row": 18,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "Investment",
+    "Cost per lead",
+    "Leads",
+    "CVR",
+    "New accounts",
+    "Net new revenue",
+    "Share of the year"
+   ],
+   "pct": [
+    "CVR",
+    "Share of the year"
+   ],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-6-aside_plans-by-month__t3",
+   "sheet": "1.6 Aside",
+   "first_row": 29,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "Investment",
+    "Cost per lead",
+    "Leads",
+    "CVR",
+    "New accounts",
+    "Net new revenue",
+    "Share of the year"
+   ],
+   "pct": [
+    "CVR",
+    "Share of the year"
+   ],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-6-aside_plans-by-month__t4",
+   "sheet": "1.6 Aside",
+   "first_row": 40,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "Investment",
+    "Cost per lead",
+    "Leads",
+    "CVR",
+    "New accounts",
+    "Net new revenue",
+    "Share of the year"
+   ],
+   "pct": [
+    "CVR",
+    "Share of the year"
+   ],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-6-aside_evenly-or-weighted__t1",
+   "sheet": "1.6 Aside",
+   "first_row": 58,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "Investment",
+    "Cost per lead",
+    "Leads",
+    "CVR",
+    "New accounts",
+    "PY revenue per account",
+    "Net new revenue"
+   ],
+   "pct": [
+    "CVR"
+   ],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-6-aside_evenly-or-weighted__t2",
+   "sheet": "1.6 Aside",
+   "first_row": 69,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "Investment",
+    "Cost per lead",
+    "Leads",
+    "CVR",
+    "New accounts",
+    "PY revenue per account",
+    "Net new revenue"
+   ],
+   "pct": [
+    "CVR"
+   ],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-6-aside_evenly-or-weighted__t3",
+   "sheet": "1.6 Aside",
+   "first_row": 80,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "Investment",
+    "Cost per lead",
+    "Leads",
+    "CVR",
+    "New accounts",
+    "PY revenue per account",
+    "Net new revenue"
+   ],
+   "pct": [
+    "CVR"
+   ],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-6-aside_evenly-or-weighted__t4",
+   "sheet": "1.6 Aside",
+   "first_row": 91,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "Investment",
+    "Cost per lead",
+    "Leads",
+    "CVR",
+    "New accounts",
+    "PY revenue per account",
+    "Net new revenue"
+   ],
+   "pct": [
+    "CVR"
+   ],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-6-aside_evenly-or-weighted__t5",
+   "sheet": "1.6 Aside",
+   "first_row": 102,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "Investment",
+    "Cost per lead",
+    "Leads",
+    "CVR",
+    "New accounts",
+    "PY revenue per account",
+    "Net new revenue"
+   ],
+   "pct": [
+    "CVR"
+   ],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-6-aside_evenly-or-weighted__t6",
+   "sheet": "1.6 Aside",
+   "first_row": 113,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "Investment",
+    "Cost per lead",
+    "Leads",
+    "CVR",
+    "New accounts",
+    "PY revenue per account",
+    "Net new revenue"
+   ],
+   "pct": [
+    "CVR"
+   ],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-6-aside_evenly-or-weighted__t7",
+   "sheet": "1.6 Aside",
+   "first_row": 124,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "Investment",
+    "Cost per lead",
+    "Leads",
+    "CVR",
+    "New accounts",
+    "PY revenue per account",
+    "Net new revenue"
+   ],
+   "pct": [
+    "CVR"
+   ],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "1-6-aside_evenly-or-weighted__t8",
+   "sheet": "1.6 Aside",
+   "first_row": 135,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "Investment",
+    "Cost per lead",
+    "Leads",
+    "CVR",
+    "New accounts",
+    "PY revenue per account",
+    "Net new revenue"
+   ],
+   "pct": [
+    "CVR"
+   ],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "2-1-straight-line_step-1__t1",
+   "sheet": "2.1 Straight Line",
+   "first_row": 7,
+   "col": 2,
+   "ncols": 8,
+   "labels": [
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026",
+    "Average, 2021 to 2025"
+   ],
+   "pct": [
+    "@cols:5,7"
+   ],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "2-1-straight-line_step-2__t1",
+   "sheet": "2.1 Straight Line",
+   "first_row": 19,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "PY (last year)",
+    "+ Last year\u2019s new",
+    "IY (this year)",
+    "January as a share of IY",
+    "+ This year\u2019s new",
+    "NY (next year)"
+   ],
+   "pct": [
+    "January as a share of IY"
+   ],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "2-1-straight-line_step-2__t2",
+   "sheet": "2.1 Straight Line",
+   "first_row": 27,
+   "col": 2,
+   "ncols": 12,
+   "labels": [
+    "PY (last year)",
+    "+ Last year\u2019s new",
+    "IY (this year)",
+    "+ This year\u2019s new",
+    "NY (next year)"
+   ],
+   "pct": [],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "2-1-straight-line_step-2__t3",
+   "sheet": "2.1 Straight Line",
+   "first_row": 36,
+   "col": 2,
+   "ncols": 1,
+   "labels": [
+    "PY, December",
+    "Last year\u2019s new accounts, December",
+    "IY\u2019s book came in at",
+    "IY, January to October (closed)",
+    "November and December as a share of PY",
+    "IY, the full year",
+    "IY, December",
+    "This year\u2019s new accounts, December",
+    "NY\u2019s book comes in at",
+    "Bigger than IY\u2019s book",
+    "Target, next year",
+    "January as a share of IY",
+    "NY January",
+    "Each month after",
+    "NY December",
+    "IY billing accounts, December",
+    "This year\u2019s new accounts billing in December",
+    "NY\u2019s book comes in with",
+    "NY December, billing accounts"
+   ],
+   "pct": [
+    "November and December as a share of PY",
+    "Bigger than IY\u2019s book",
+    "January as a share of IY"
+   ],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "2-1-straight-line_next-year__v1c1",
+   "sheet": "2.1 Straight Line",
+   "first_row": 78,
+   "col": 2,
+   "ncols": 12,
+   "labels": [
+    "Revenue",
+    "Billing accounts"
+   ],
+   "pct": [],
+   "kind": "chart",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "2-2-seasonal_step-1__t1",
+   "sheet": "2.2 Seasonal",
+   "first_row": 8,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026",
+    "Average",
+    "Processing volume, average"
+   ],
+   "pct": [
+    "@cols:0,1,2,3,4,5,6,7,8,9,10,11"
+   ],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "2-2-seasonal_step-2__t1",
+   "sheet": "2.2 Seasonal",
+   "first_row": 29,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "Straight Line",
+    "Average share of the year",
+    "Seasonal"
+   ],
+   "pct": [
+    "Average share of the year"
+   ],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "2-2-seasonal_next-year__v1c1",
+   "sheet": "2.2 Seasonal",
+   "first_row": 34,
+   "col": 2,
+   "ncols": 12,
+   "labels": [
+    "Revenue",
+    "Billing accounts"
+   ],
+   "pct": [],
+   "kind": "chart",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "2-3-cohort_step-1__t1",
+   "sheet": "2.3 Cohort",
+   "first_row": 192,
+   "col": 2,
+   "ncols": 5,
+   "labels": [
+    "2017 and earlier",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026",
+    "All cohorts"
+   ],
+   "pct": [],
+   "kind": "sheet",
+   "skip": [
+    2
+   ],
+   "match": "exact"
+  },
+  {
+   "grid": "2-3-cohort_next-year__v1c1",
+   "sheet": "2.3 Cohort",
+   "first_row": 205,
+   "col": 2,
+   "ncols": 12,
+   "labels": [
+    "Revenue",
+    "Billing accounts"
+   ],
+   "pct": [],
+   "kind": "chart",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "2-5-three-layers__t1",
+   "sheet": "2.5 Three layers",
+   "first_row": 7,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "Straight Line",
+    "Seasonal",
+    "Cohort"
+   ],
+   "pct": [],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "3-1-whole-book__t1",
+   "sheet": "3.1 Whole book",
+   "first_row": 7,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "Accounts already on the book",
+    "Net new in year",
+    "Whole book"
+   ],
+   "pct": [],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "3-1-whole-book__t2",
+   "sheet": "3.1 Whole book",
+   "first_row": 14,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "Accounts already on the book",
+    "Net new in year",
+    "Whole book"
+   ],
+   "pct": [],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  },
+  {
+   "grid": "3-1-whole-book__t3",
+   "sheet": "3.1 Whole book",
+   "first_row": 21,
+   "col": 2,
+   "ncols": 13,
+   "labels": [
+    "Accounts already on the book",
+    "Net new in year",
+    "Whole book"
+   ],
+   "pct": [],
+   "kind": "sheet",
+   "skip": [],
+   "match": "exact"
+  }
+ ]
+}

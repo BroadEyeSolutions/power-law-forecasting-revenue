@@ -1,0 +1,20 @@
+,Value,How it is worked out
+"PY, December","$2,579,320",the PY row’s December
+"Last year’s new accounts, December","$638,776",Chapter 1: PY’s December
+IY’s book came in at,"$3,218,096",= PY December + last year’s new accounts
+"IY, January to October (closed)","$27,597,180","the closed IY cells, added up"
+November and December as a share of PY,16.3%,PY: (Nov + Dec) ÷ the year
+"IY, the full year","$32,958,209",= closed ÷ (1 − that share)
+"IY, December","$2,742,724",= the full year × PY’s December share
+"This year’s new accounts, December","$577,966",Chapter 1: IY’s December
+NY’s book comes in at,"$3,320,689",= IY December + this year’s new accounts
+Bigger than IY’s book,+3.2%,= NY’s book ÷ IY’s book − 1 (where Chapter 1 has the goal)
+"Target, next year","$34,008,926",= the full year × (1 + that)
+January as a share of IY,8.11%,"IY January ÷ IY, the full year"
+NY January,"$2,756,737",= the target × that share
+Each month after,"+$14,062","= (the target − 12 × NY January) ÷ 66, so the twelve months add up to the target"
+NY December,"$2,911,417",= NY January + 11 steps
+"IY billing accounts, December","6,634","= October’s 6,910 × PY’s December ÷ October (0.960)"
+This year’s new accounts billing in December,"2,595","= Chapter 1’s count, 3,268 × the 79.4% of last year’s new accounts billing in December (2,581 of 3,250)"
+NY’s book comes in with,"9,229",= IY December + this year’s new accounts
+"NY December, billing accounts","6,954","= that × the 75.3% average kept (Step 1), one equal step a month"

@@ -1,0 +1,588 @@
+{
+ "guide": "Forecasting: Revenue (Broad Eye Solutions, powerlawperformance.com/resources/forecasting-revenue/)",
+ "chapter": "chapter-2",
+ "guide_build": "2026-11-15 04:25 UTC",
+ "guide_figures_fingerprint": "f1444838d3f4",
+ "guide_source_fingerprint": "941b98058195",
+ "left_out": "The guide\u2019s Power Law grids, views and rows (Power Law isn\u2019t in this repository), and Chapter 3.7 (the repository runs that test on Cohort).",
+ "grids": [
+  {
+   "grid": "2-0-existing-book_chart",
+   "guide_figure": "p2e-open",
+   "kind": "bars",
+   "tables": [
+    {
+     "file": "2-0-existing-book_chart__v1c1.csv",
+     "view": "Straight Line",
+     "view_index": 1,
+     "chart": 1,
+     "kinds": [
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and billing accounts"
+    },
+    {
+     "file": "2-0-existing-book_chart__v2c1.csv",
+     "view": "Seasonal",
+     "view_index": 2,
+     "chart": 1,
+     "kinds": [
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and billing accounts"
+    },
+    {
+     "file": "2-0-existing-book_chart__v3c1.csv",
+     "view": "Cohort",
+     "view_index": 3,
+     "chart": 1,
+     "kinds": [
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and billing accounts"
+    }
+   ],
+   "title": "Next year by month: the accounts already on the book. The numbers are in the table under the chart."
+  },
+  {
+   "grid": "2-1-straight-line_step-1",
+   "guide_figure": "p2-sl-hist",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "2-1-straight-line_step-1__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": null
+    }
+   ],
+   "title": "Every year the book came in"
+  },
+  {
+   "grid": "2-1-straight-line_step-2",
+   "guide_figure": "p2-sl-grid",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "2-1-straight-line_step-2__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": "Revenue"
+    },
+    {
+     "file": "2-1-straight-line_step-2__t2.csv",
+     "tab": null,
+     "variant": null,
+     "caption": "Billing accounts"
+    },
+    {
+     "file": "2-1-straight-line_step-2__t3.csv",
+     "tab": null,
+     "variant": null,
+     "caption": "The math"
+    }
+   ],
+   "title": "Close out this year, add the new accounts, draw the line"
+  },
+  {
+   "grid": "2-1-straight-line_step-1-chart",
+   "guide_figure": "p2-sl-years",
+   "kind": "line",
+   "tables": [
+    {
+     "file": "2-1-straight-line_step-1-chart__v1c1.csv",
+     "view": "",
+     "view_index": 1,
+     "chart": 1
+    }
+   ],
+   "title": "The existing book by month, 2021 to 2027: what billed, and each year\u2019s Straight Line. The numbers are in the table under the chart."
+  },
+  {
+   "grid": "2-1-straight-line_next-year",
+   "guide_figure": "p2-straight",
+   "kind": "bars",
+   "tables": [
+    {
+     "file": "2-1-straight-line_next-year__v1c1.csv",
+     "view": "",
+     "view_index": 1,
+     "chart": 1,
+     "kinds": [
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and billing accounts"
+    }
+   ],
+   "title": "The existing book next year, Straight Line. The numbers are in the table under the chart."
+  },
+  {
+   "grid": "2-1-straight-line_reforecast",
+   "guide_figure": "p2-straight-re",
+   "kind": "bars",
+   "tables": [
+    {
+     "file": "2-1-straight-line_reforecast__v1c1.csv",
+     "view": "3+9",
+     "view_index": 1,
+     "chart": 1,
+     "kinds": [
+      "a",
+      "a",
+      "a",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and billing accounts"
+    },
+    {
+     "file": "2-1-straight-line_reforecast__v2c1.csv",
+     "view": "6+6",
+     "view_index": 2,
+     "chart": 1,
+     "kinds": [
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and billing accounts"
+    },
+    {
+     "file": "2-1-straight-line_reforecast__v3c1.csv",
+     "view": "9+3",
+     "view_index": 3,
+     "chart": 1,
+     "kinds": [
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and billing accounts"
+    },
+    {
+     "file": "2-1-straight-line_reforecast__v4c1.csv",
+     "view": "Every month: October",
+     "view_index": 4,
+     "chart": 1,
+     "kinds": [
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and billing accounts"
+    }
+   ],
+   "title": "Straight Line: the existing book in 2026, as it stood at each close. The numbers are in the table under the chart."
+  },
+  {
+   "grid": "2-2-seasonal_step-1",
+   "guide_figure": "p2-se-idx",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "2-2-seasonal_step-1__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": null
+    }
+   ],
+   "title": "Each month\u2019s share of its year"
+  },
+  {
+   "grid": "2-2-seasonal_step-2",
+   "guide_figure": "p2-se-fill",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "2-2-seasonal_step-2__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": null
+    }
+   ],
+   "title": "Fill Straight Line\u2019s year by the time of year"
+  },
+  {
+   "grid": "2-2-seasonal_next-year",
+   "guide_figure": "p2-seasonal",
+   "kind": "bars",
+   "tables": [
+    {
+     "file": "2-2-seasonal_next-year__v1c1.csv",
+     "view": "",
+     "view_index": 1,
+     "chart": 1,
+     "kinds": [
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and billing accounts"
+    }
+   ],
+   "title": "The existing book next year, Seasonal. The numbers are in the table under the chart."
+  },
+  {
+   "grid": "2-2-seasonal_reforecast",
+   "guide_figure": "p2-seasonal-re",
+   "kind": "bars",
+   "tables": [
+    {
+     "file": "2-2-seasonal_reforecast__v1c1.csv",
+     "view": "3+9",
+     "view_index": 1,
+     "chart": 1,
+     "kinds": [
+      "a",
+      "a",
+      "a",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and billing accounts"
+    },
+    {
+     "file": "2-2-seasonal_reforecast__v2c1.csv",
+     "view": "6+6",
+     "view_index": 2,
+     "chart": 1,
+     "kinds": [
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and billing accounts"
+    },
+    {
+     "file": "2-2-seasonal_reforecast__v3c1.csv",
+     "view": "9+3",
+     "view_index": 3,
+     "chart": 1,
+     "kinds": [
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and billing accounts"
+    },
+    {
+     "file": "2-2-seasonal_reforecast__v4c1.csv",
+     "view": "Every month: October",
+     "view_index": 4,
+     "chart": 1,
+     "kinds": [
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and billing accounts"
+    }
+   ],
+   "title": "Seasonal: the existing book in 2026, as it stood at each close. The numbers are in the table under the chart."
+  },
+  {
+   "grid": "2-3-cohort_step-1",
+   "guide_figure": "p2-co-years",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "2-3-cohort_step-1__t1.csv",
+     "tab": "By approval year",
+     "variant": null,
+     "caption": null
+    },
+    {
+     "file": "2-3-cohort_step-1__t2.csv",
+     "tab": "By approval month",
+     "variant": null,
+     "caption": null
+    }
+   ],
+   "title": "Every cohort on its own line"
+  },
+  {
+   "grid": "2-3-cohort_next-year",
+   "guide_figure": "p2-cohort",
+   "kind": "bars",
+   "tables": [
+    {
+     "file": "2-3-cohort_next-year__v1c1.csv",
+     "view": "",
+     "view_index": 1,
+     "chart": 1,
+     "kinds": [
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and billing accounts"
+    }
+   ],
+   "title": "The existing book next year, Cohort. The numbers are in the table under the chart."
+  },
+  {
+   "grid": "2-3-cohort_reforecast",
+   "guide_figure": "p2-cohort-re",
+   "kind": "bars",
+   "tables": [
+    {
+     "file": "2-3-cohort_reforecast__v1c1.csv",
+     "view": "3+9",
+     "view_index": 1,
+     "chart": 1,
+     "kinds": [
+      "a",
+      "a",
+      "a",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and billing accounts"
+    },
+    {
+     "file": "2-3-cohort_reforecast__v2c1.csv",
+     "view": "6+6",
+     "view_index": 2,
+     "chart": 1,
+     "kinds": [
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and billing accounts"
+    },
+    {
+     "file": "2-3-cohort_reforecast__v3c1.csv",
+     "view": "9+3",
+     "view_index": 3,
+     "chart": 1,
+     "kinds": [
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and billing accounts"
+    },
+    {
+     "file": "2-3-cohort_reforecast__v4c1.csv",
+     "view": "Every month: October",
+     "view_index": 4,
+     "chart": 1,
+     "kinds": [
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and billing accounts"
+    }
+   ],
+   "title": "Cohort: the existing book in 2026, as it stood at each close. The numbers are in the table under the chart."
+  },
+  {
+   "grid": "2-5-three-layers",
+   "guide_figure": "p2-four",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "2-5-three-layers__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": null
+    }
+   ],
+   "title": "The existing book next year, four layers"
+  },
+  {
+   "grid": "2-5-three-layers_check",
+   "guide_figure": "p2-check",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "2-5-three-layers_check__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": null
+    }
+   ],
+   "title": "Each layer against what billed, every year so far"
+  },
+  {
+   "grid": "2-5-three-layers_this-year-at-each-close",
+   "guide_figure": "p2-closes",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "2-5-three-layers_this-year-at-each-close__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": null
+    }
+   ],
+   "title": "The existing book in 2026, four layers, as it stood at each close"
+  }
+ ]
+}

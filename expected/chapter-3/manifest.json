@@ -1,0 +1,244 @@
+{
+ "guide": "Forecasting: Revenue (Broad Eye Solutions, powerlawperformance.com/resources/forecasting-revenue/)",
+ "chapter": "chapter-3",
+ "guide_build": "2026-11-15 04:25 UTC",
+ "guide_figures_fingerprint": "f1444838d3f4",
+ "guide_source_fingerprint": "941b98058195",
+ "left_out": "The guide\u2019s Power Law grids, views and rows (Power Law isn\u2019t in this repository), and Chapter 3.7 (the repository runs that test on Cohort).",
+ "grids": [
+  {
+   "grid": "3-1-whole-book_chart",
+   "guide_figure": "p3-whole",
+   "kind": "bars",
+   "tables": [
+    {
+     "file": "3-1-whole-book_chart__v1c1.csv",
+     "view": "Straight Line",
+     "view_index": 1,
+     "chart": 1,
+     "kinds": null,
+     "title": "Revenue"
+    },
+    {
+     "file": "3-1-whole-book_chart__v2c1.csv",
+     "view": "Seasonal",
+     "view_index": 2,
+     "chart": 1,
+     "kinds": null,
+     "title": "Revenue"
+    },
+    {
+     "file": "3-1-whole-book_chart__v3c1.csv",
+     "view": "Cohort",
+     "view_index": 3,
+     "chart": 1,
+     "kinds": null,
+     "title": "Revenue"
+    }
+   ],
+   "title": "Next year by month, the whole book. The numbers are in the table under the chart."
+  },
+  {
+   "grid": "3-1-whole-book",
+   "guide_figure": "p3-total",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "3-1-whole-book__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": "Straight Line"
+    },
+    {
+     "file": "3-1-whole-book__t2.csv",
+     "tab": null,
+     "variant": null,
+     "caption": "Seasonal"
+    },
+    {
+     "file": "3-1-whole-book__t3.csv",
+     "tab": null,
+     "variant": null,
+     "caption": "Cohort"
+    }
+   ],
+   "title": "Next year, four ways: the existing book plus net new"
+  },
+  {
+   "grid": "3-2-every-projection",
+   "guide_figure": "p6-proj",
+   "kind": "line",
+   "tables": [
+    {
+     "file": "3-2-every-projection__v1c1.csv",
+     "view": "December 2021",
+     "view_index": 1,
+     "chart": 1
+    },
+    {
+     "file": "3-2-every-projection__v2c1.csv",
+     "view": "October 2022",
+     "view_index": 2,
+     "chart": 1
+    },
+    {
+     "file": "3-2-every-projection__v3c1.csv",
+     "view": "October 2023",
+     "view_index": 3,
+     "chart": 1
+    },
+    {
+     "file": "3-2-every-projection__v4c1.csv",
+     "view": "October 2024",
+     "view_index": 4,
+     "chart": 1
+    },
+    {
+     "file": "3-2-every-projection__v5c1.csv",
+     "view": "October 2025",
+     "view_index": 5,
+     "chart": 1
+    }
+   ],
+   "title": "The whole book by month, 2022 to 2027, actual and each method\u2019s projection. The numbers are in the table under the chart."
+  },
+  {
+   "grid": "3-3-typical-miss",
+   "guide_figure": "p6-typical",
+   "kind": "range",
+   "tables": [
+    {
+     "file": "3-3-typical-miss__v1c1.csv",
+     "view": "",
+     "view_index": 1,
+     "chart": 1
+    }
+   ],
+   "title": "The typical size of the miss, 1 to 24 months ahead, for each of the five methods. The numbers are in the table under the chart."
+  },
+  {
+   "grid": "3-3-bands",
+   "guide_figure": "p6-bands",
+   "kind": "range",
+   "tables": [
+    {
+     "file": "3-3-bands__v1c1.csv",
+     "view": "Straight Line",
+     "view_index": 1,
+     "chart": 1
+    },
+    {
+     "file": "3-3-bands__v2c1.csv",
+     "view": "Seasonal",
+     "view_index": 2,
+     "chart": 1
+    },
+    {
+     "file": "3-3-bands__v3c1.csv",
+     "view": "Cohort",
+     "view_index": 3,
+     "chart": 1
+    },
+    {
+     "file": "3-3-bands__v4c1.csv",
+     "view": "Trend line",
+     "view_index": 4,
+     "chart": 1
+    }
+   ],
+   "title": "How far off each forecast landed, 1 to 24 months ahead, one method at a time. The numbers are in the table under the chart."
+  },
+  {
+   "grid": "3-4-year-and-quarter",
+   "guide_figure": "p3-year",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "3-4-year-and-quarter__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": "The whole book, full year"
+    },
+    {
+     "file": "3-4-year-and-quarter__t2.csv",
+     "tab": null,
+     "variant": null,
+     "caption": "Net new in year and the existing book, full year"
+    },
+    {
+     "file": "3-4-year-and-quarter__t3.csv",
+     "tab": null,
+     "variant": null,
+     "caption": "The whole book by quarter: average size of the miss, 2022 to 2025"
+    }
+   ],
+   "title": "Each method on the full year and the quarter, from each planning close"
+  },
+  {
+   "grid": "3-5-where-the-miss-comes-from",
+   "guide_figure": "p3-split",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "3-5-where-the-miss-comes-from__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": "Net new in year"
+    },
+    {
+     "file": "3-5-where-the-miss-comes-from__t2.csv",
+     "tab": null,
+     "variant": null,
+     "caption": "The existing book"
+    }
+   ],
+   "title": "Typical miss by months ahead, net new in year and the existing book"
+  },
+  {
+   "grid": "3-6-this-year-so-far-chart",
+   "guide_figure": "p3-loop-line",
+   "kind": "line",
+   "tables": [
+    {
+     "file": "3-6-this-year-so-far-chart__v1c1.csv",
+     "view": "3+9",
+     "view_index": 1,
+     "chart": 1
+    },
+    {
+     "file": "3-6-this-year-so-far-chart__v2c1.csv",
+     "view": "6+6",
+     "view_index": 2,
+     "chart": 1
+    },
+    {
+     "file": "3-6-this-year-so-far-chart__v3c1.csv",
+     "view": "9+3",
+     "view_index": 3,
+     "chart": 1
+    }
+   ],
+   "title": "Net new revenue in 2026 by month, actual and each method\u2019s forecast from the 3+9, 6+6 and 9+3 closes. The numbers are in the table under the chart."
+  },
+  {
+   "grid": "3-6-this-year-so-far",
+   "guide_figure": "p3-loop",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "3-6-this-year-so-far__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": "Net new in year"
+    },
+    {
+     "file": "3-6-this-year-so-far__t2.csv",
+     "tab": null,
+     "variant": null,
+     "caption": "The existing book"
+    }
+   ],
+   "title": "Each reforecast against what billed, through October"
+  }
+ ]
+}

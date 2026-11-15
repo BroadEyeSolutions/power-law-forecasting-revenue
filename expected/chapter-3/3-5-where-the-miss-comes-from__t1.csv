@@ -1,0 +1,4 @@
+,1 month ahead,3 months,6 months,12 months
+Straight Line,0.8,1.1,1.5,1.5
+Seasonal,0.8,1.1,1.5,1.5
+Cohort,0.2,0.6,1.0,1.2

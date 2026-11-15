@@ -1,0 +1,7 @@
+key,value,what it is
+close,2026-10,The last month-end close. Everything after it is forecast; nothing after it is read.
+goal,0.10,Growth the company wants from new accounts next year (0.10 = 10% more).
+plan_cvr_change,0.10,"Plan 2 in Chapter 1, Straight Line, Step 3: the conversion rate 10% better."
+plan_cost_per_lead_change,-0.10,Plans 3 and 4: the cost per lead 10% lower.
+weighted_phase_in,0.10,Weighted: a changed rate starts 10% under the plan in January and ends 10% over it in December (cost per lead the other way round).
+plan_month,10,"The month whose close each year's plan is made at (10 = October, as the guide does). The plan's count is set then, for the year after."

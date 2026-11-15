@@ -1,0 +1,893 @@
+{
+ "guide": "Forecasting: Revenue (Broad Eye Solutions, powerlawperformance.com/resources/forecasting-revenue/)",
+ "chapter": "chapter-1",
+ "guide_build": "2026-11-15 04:25 UTC",
+ "guide_figures_fingerprint": "f1444838d3f4",
+ "guide_source_fingerprint": "941b98058195",
+ "left_out": "The guide\u2019s Power Law grids, views and rows (Power Law isn\u2019t in this repository), and Chapter 3.7 (the repository runs that test on Cohort).",
+ "grids": [
+  {
+   "grid": "1-1-straight-line_needs",
+   "guide_figure": "p1-needs",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "1-1-straight-line_needs__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": "PY: the prior year, all twelve months"
+    },
+    {
+     "file": "1-1-straight-line_needs__t2.csv",
+     "tab": null,
+     "variant": null,
+     "caption": "IY: the year you are in, closed through October"
+    }
+   ],
+   "title": "Four numbers, two years, month by month"
+  },
+  {
+   "grid": "1-1-straight-line_step-1",
+   "guide_figure": "p1-s1",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "1-1-straight-line_step-1__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": null
+    },
+    {
+     "file": "1-1-straight-line_step-1__t2.csv",
+     "tab": null,
+     "variant": null,
+     "caption": "The math"
+    }
+   ],
+   "title": "Close out this year, add the goal, draw the line"
+  },
+  {
+   "grid": "1-1-straight-line_step-2",
+   "guide_figure": "p1-s2",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "1-1-straight-line_step-2__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": null
+    }
+   ],
+   "title": "The revenue target, worked back to a count"
+  },
+  {
+   "grid": "1-1-straight-line_step-3",
+   "guide_figure": "p1-s3",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "1-1-straight-line_step-3__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": null
+    }
+   ],
+   "title": "The count, priced four ways"
+  },
+  {
+   "grid": "1-1-straight-line_step-4",
+   "guide_figure": "p1-straight",
+   "kind": "bars",
+   "tables": [
+    {
+     "file": "1-1-straight-line_step-4__v1c1.csv",
+     "view": "Plan 1",
+     "view_index": 1,
+     "chart": 1,
+     "kinds": [
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    },
+    {
+     "file": "1-1-straight-line_step-4__v2c1.csv",
+     "view": "Plan 1",
+     "view_index": 2,
+     "chart": 1,
+     "kinds": [
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    },
+    {
+     "file": "1-1-straight-line_step-4__v3c1.csv",
+     "view": "Plan 2",
+     "view_index": 3,
+     "chart": 1,
+     "kinds": [
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    },
+    {
+     "file": "1-1-straight-line_step-4__v4c1.csv",
+     "view": "Plan 2",
+     "view_index": 4,
+     "chart": 1,
+     "kinds": [
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    },
+    {
+     "file": "1-1-straight-line_step-4__v5c1.csv",
+     "view": "Plan 3",
+     "view_index": 5,
+     "chart": 1,
+     "kinds": [
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    },
+    {
+     "file": "1-1-straight-line_step-4__v6c1.csv",
+     "view": "Plan 3",
+     "view_index": 6,
+     "chart": 1,
+     "kinds": [
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    },
+    {
+     "file": "1-1-straight-line_step-4__v7c1.csv",
+     "view": "Plan 4",
+     "view_index": 7,
+     "chart": 1,
+     "kinds": [
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    },
+    {
+     "file": "1-1-straight-line_step-4__v8c1.csv",
+     "view": "Plan 4",
+     "view_index": 8,
+     "chart": 1,
+     "kinds": [
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    }
+   ],
+   "title": "Next year by month, Straight Line, four plans. The numbers are in the table under the chart."
+  },
+  {
+   "grid": "1-1-straight-line_reforecast",
+   "guide_figure": "p1-straight-re",
+   "kind": "bars",
+   "tables": [
+    {
+     "file": "1-1-straight-line_reforecast__v1c1.csv",
+     "view": "3+9",
+     "view_index": 1,
+     "chart": 1,
+     "kinds": [
+      "a",
+      "a",
+      "a",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    },
+    {
+     "file": "1-1-straight-line_reforecast__v2c1.csv",
+     "view": "6+6",
+     "view_index": 2,
+     "chart": 1,
+     "kinds": [
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    },
+    {
+     "file": "1-1-straight-line_reforecast__v3c1.csv",
+     "view": "9+3",
+     "view_index": 3,
+     "chart": 1,
+     "kinds": [
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    },
+    {
+     "file": "1-1-straight-line_reforecast__v4c1.csv",
+     "view": "Every month: October",
+     "view_index": 4,
+     "chart": 1,
+     "kinds": [
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    }
+   ],
+   "title": "Straight Line: 2026 as it stood at each close. The numbers are in the table under the chart."
+  },
+  {
+   "grid": "1-2-seasonal_step-1",
+   "guide_figure": "p1-s4",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "1-2-seasonal_step-1__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": null
+    }
+   ],
+   "title": "The year\u2019s number, filled into twelve months"
+  },
+  {
+   "grid": "1-2-seasonal_step-2",
+   "guide_figure": "p2-season",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "1-2-seasonal_step-2__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": "Each month\u2019s share of the year"
+    },
+    {
+     "file": "1-2-seasonal_step-2__t2.csv",
+     "tab": null,
+     "variant": null,
+     "caption": "Next year\u2019s months from the average: Straight Line\u2019s year"
+    }
+   ],
+   "title": "Every January together, every February together"
+  },
+  {
+   "grid": "1-2-seasonal_next-year",
+   "guide_figure": "p1-seasonal",
+   "kind": "bars",
+   "tables": [
+    {
+     "file": "1-2-seasonal_next-year__v1c1.csv",
+     "view": "",
+     "view_index": 1,
+     "chart": 1,
+     "kinds": [
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    }
+   ],
+   "title": "Next year by month, Seasonal. The numbers are in the table under the chart."
+  },
+  {
+   "grid": "1-2-seasonal_reforecast",
+   "guide_figure": "p1-seasonal-re",
+   "kind": "bars",
+   "tables": [
+    {
+     "file": "1-2-seasonal_reforecast__v1c1.csv",
+     "view": "3+9",
+     "view_index": 1,
+     "chart": 1,
+     "kinds": [
+      "a",
+      "a",
+      "a",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    },
+    {
+     "file": "1-2-seasonal_reforecast__v2c1.csv",
+     "view": "6+6",
+     "view_index": 2,
+     "chart": 1,
+     "kinds": [
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    },
+    {
+     "file": "1-2-seasonal_reforecast__v3c1.csv",
+     "view": "9+3",
+     "view_index": 3,
+     "chart": 1,
+     "kinds": [
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    },
+    {
+     "file": "1-2-seasonal_reforecast__v4c1.csv",
+     "view": "Every month: October",
+     "view_index": 4,
+     "chart": 1,
+     "kinds": [
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    }
+   ],
+   "title": "Seasonal: 2026 as it stood at each close. The numbers are in the table under the chart."
+  },
+  {
+   "grid": "1-3-cohort_needs",
+   "guide_figure": "p2-needs",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "1-3-cohort_needs__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": "Across the top: the month it billed. Down the side: the month it was approved."
+    }
+   ],
+   "title": "Two dates on every revenue number"
+  },
+  {
+   "grid": "1-3-cohort_step-1-py",
+   "guide_figure": "p2-py",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "1-3-cohort_step-1-py__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": null
+    }
+   ],
+   "title": "Last year, one line for each month\u2019s new accounts: the revenue"
+  },
+  {
+   "grid": "1-3-cohort_step-1-iy",
+   "guide_figure": "p2-s1",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "1-3-cohort_step-1-iy__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": null
+    }
+   ],
+   "title": "This year on the same grid, as far as it has closed"
+  },
+  {
+   "grid": "1-3-cohort_step-2",
+   "guide_figure": "p2-s2",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "1-3-cohort_step-2__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": null
+    }
+   ],
+   "title": "What a new account bills, by its month on the book"
+  },
+  {
+   "grid": "1-3-cohort_step-3",
+   "guide_figure": "p2-s3",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "1-3-cohort_step-3__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": null
+    }
+   ],
+   "title": "The time of year"
+  },
+  {
+   "grid": "1-3-cohort_step-4",
+   "guide_figure": "p2-s4",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "1-3-cohort_step-4__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": null
+    }
+   ],
+   "title": "Next year: accounts \u00d7 the curve \u00d7 the time of year"
+  },
+  {
+   "grid": "1-3-cohort_next-year",
+   "guide_figure": "p1-cohort",
+   "kind": "bars",
+   "tables": [
+    {
+     "file": "1-3-cohort_next-year__v1c1.csv",
+     "view": "",
+     "view_index": 1,
+     "chart": 1,
+     "kinds": [
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    }
+   ],
+   "title": "Next year by month, Cohort. The numbers are in the table under the chart."
+  },
+  {
+   "grid": "1-3-cohort_reforecast",
+   "guide_figure": "p1-cohort-re",
+   "kind": "bars",
+   "tables": [
+    {
+     "file": "1-3-cohort_reforecast__v1c1.csv",
+     "view": "3+9",
+     "view_index": 1,
+     "chart": 1,
+     "kinds": [
+      "a",
+      "a",
+      "a",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    },
+    {
+     "file": "1-3-cohort_reforecast__v2c1.csv",
+     "view": "6+6",
+     "view_index": 2,
+     "chart": 1,
+     "kinds": [
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    },
+    {
+     "file": "1-3-cohort_reforecast__v3c1.csv",
+     "view": "9+3",
+     "view_index": 3,
+     "chart": 1,
+     "kinds": [
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    },
+    {
+     "file": "1-3-cohort_reforecast__v4c1.csv",
+     "view": "Every month: October",
+     "view_index": 4,
+     "chart": 1,
+     "kinds": [
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "a",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    }
+   ],
+   "title": "Cohort: 2026 as it stood at each close. The numbers are in the table under the chart."
+  },
+  {
+   "grid": "1-5-three-ways",
+   "guide_figure": "p1-four",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "1-5-three-ways__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": null
+    }
+   ],
+   "title": "Next year, four ways"
+  },
+  {
+   "grid": "1-5-three-ways_this-year-at-each-close",
+   "guide_figure": "p1-closes",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "1-5-three-ways_this-year-at-each-close__t1.csv",
+     "tab": null,
+     "variant": null,
+     "caption": null
+    }
+   ],
+   "title": "Net new in 2026, four ways, as it stood at each close"
+  },
+  {
+   "grid": "1-5-three-ways_chart",
+   "guide_figure": "p1n-open",
+   "kind": "bars",
+   "tables": [
+    {
+     "file": "1-5-three-ways_chart__v1c1.csv",
+     "view": "Straight Line",
+     "view_index": 1,
+     "chart": 1,
+     "kinds": [
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    },
+    {
+     "file": "1-5-three-ways_chart__v2c1.csv",
+     "view": "Seasonal",
+     "view_index": 2,
+     "chart": 1,
+     "kinds": [
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    },
+    {
+     "file": "1-5-three-ways_chart__v3c1.csv",
+     "view": "Cohort",
+     "view_index": 3,
+     "chart": 1,
+     "kinds": [
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f",
+      "f"
+     ],
+     "title": "Revenue and new accounts"
+    }
+   ],
+   "title": "Next year by month: revenue and new accounts. The numbers are in the table under the chart."
+  },
+  {
+   "grid": "1-6-aside_plans-by-month",
+   "guide_figure": "p1-s4plans",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "1-6-aside_plans-by-month__t1.csv",
+     "tab": "Plan 1",
+     "variant": null,
+     "caption": null
+    },
+    {
+     "file": "1-6-aside_plans-by-month__t2.csv",
+     "tab": "Plan 2",
+     "variant": null,
+     "caption": null
+    },
+    {
+     "file": "1-6-aside_plans-by-month__t3.csv",
+     "tab": "Plan 3",
+     "variant": null,
+     "caption": null
+    },
+    {
+     "file": "1-6-aside_plans-by-month__t4.csv",
+     "tab": "Plan 4",
+     "variant": null,
+     "caption": null
+    }
+   ],
+   "title": "The four plans from Step 3, month by month"
+  },
+  {
+   "grid": "1-6-aside_evenly-or-weighted",
+   "guide_figure": "p1-s5",
+   "kind": "sheet",
+   "tables": [
+    {
+     "file": "1-6-aside_evenly-or-weighted__t1.csv",
+     "tab": "Plan 1",
+     "variant": "even",
+     "caption": null
+    },
+    {
+     "file": "1-6-aside_evenly-or-weighted__t2.csv",
+     "tab": "Plan 1",
+     "variant": "weighted",
+     "caption": null
+    },
+    {
+     "file": "1-6-aside_evenly-or-weighted__t3.csv",
+     "tab": "Plan 2",
+     "variant": "even",
+     "caption": null
+    },
+    {
+     "file": "1-6-aside_evenly-or-weighted__t4.csv",
+     "tab": "Plan 2",
+     "variant": "weighted",
+     "caption": null
+    },
+    {
+     "file": "1-6-aside_evenly-or-weighted__t5.csv",
+     "tab": "Plan 3",
+     "variant": "even",
+     "caption": null
+    },
+    {
+     "file": "1-6-aside_evenly-or-weighted__t6.csv",
+     "tab": "Plan 3",
+     "variant": "weighted",
+     "caption": null
+    },
+    {
+     "file": "1-6-aside_evenly-or-weighted__t7.csv",
+     "tab": "Plan 4",
+     "variant": "even",
+     "caption": null
+    },
+    {
+     "file": "1-6-aside_evenly-or-weighted__t8.csv",
+     "tab": "Plan 4",
+     "variant": "weighted",
+     "caption": null
+    }
+   ],
+   "title": "The four plans again, with the improvement added evenly or weighted"
+  }
+ ]
+}

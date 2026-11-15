@@ -1,0 +1,10 @@
+,Value,How it is worked out
+"IY, January to October (closed)","$2,680,678","the closed IY cells, added up"
+November and December as a share of PY,28.8%,PY: (Nov + Dec) ÷ the year
+"IY, the full year","$3,763,377",= closed ÷ (1 − that share)
+Goal,10%,set by the company
+"Target, next year","$4,139,715",= the full year × (1 + the goal)
+January as a share of IY,0.58%,"IY January ÷ IY, the full year"
+NY January,"$24,028",= the target × that share
+Each month after,"+$58,354","= (the target − 12 × NY January) ÷ 66, so the twelve months add up to the target"
+NY December,"$665,924",= NY January + 11 steps

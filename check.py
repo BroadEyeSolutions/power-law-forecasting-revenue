@@ -8,13 +8,24 @@ The guide's Power Law tables and its Chapter 3.7 aren't in expected/: Power Law 
   python3 check.py --out /tmp/plf       write the engine's tables somewhere else (leave the repository untouched)
   python3 check.py --chapter 1          check one chapter
   python3 check.py --verbose            also list every cell that failed
+  python3 check.py --help               show this and stop (nothing is run)
 
 Your AI should run this before it touches your own data: if the sample book doesn't land on the guide's numbers, nothing else will.
 """
 import csv, json, math, os, re, subprocess, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); EXP = os.path.join(HERE, 'expected')
-if '--out' in sys.argv and (sys.argv.index('--out') + 1 >= len(sys.argv) or sys.argv[sys.argv.index('--out') + 1].startswith('--')):
-    sys.exit('check.py: --out needs a folder after it, e.g. python3 check.py --out /tmp/plf')
+# Stop before running anything on --help, or on an argument this script doesn't know, so a mistyped flag never writes into the repository.
+if '-h' in sys.argv[1:] or '--help' in sys.argv[1:]:
+    print(__doc__.strip()); sys.exit(0)
+_args = sys.argv[1:]
+while _args:
+    _a = _args.pop(0)
+    if _a in ('--verbose', '--no-run'): continue
+    if _a in ('--out', '--chapter'):
+        if not _args or _args[0].startswith('--'):
+            sys.exit('check.py: --out needs a folder after it, e.g. python3 check.py --out /tmp/plf' if _a == '--out' else 'check.py: --chapter needs a number after it, e.g. python3 check.py --chapter 1')
+        _args.pop(0); continue
+    sys.exit(f'check.py: unknown argument {_a!r}. Nothing was run.\n\n' + __doc__.strip())
 OUT = sys.argv[sys.argv.index('--out') + 1] if '--out' in sys.argv else os.path.join(HERE, 'outputs')
 NUM = re.compile(r'^(?P<sign>[+\-−]?)(?P<cur>\$?)(?P<num>\d[\d,]*(?:\.\d+)?)(?P<suf>[KM%]?)(?: avg| points)?$')
 def parse(s):

@@ -7,6 +7,7 @@
 Every table the guide shows is written as one CSV, named after its chapter, section and step (see METHOD.md).
 """
 import argparse, os, sys, time
+sys.dont_write_bytecode = True  # leave no __pycache__ in the repository
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from plf.book import Book
 from plf.chapter1 import NetNewInYear
